@@ -1,0 +1,45 @@
+.cardBox{
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+.cardContainer{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.icon{
+    user-select: none;
+    cursor: pointer;
+}
+.productTotalPrice{
+    max-width: 70vw;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+
+}
+.totalPrice{
+    font-size: 22px;
+}
+.cardImage{
+    width: 30%;
+}
+.cardInfo{
+    width: 50%;
+    text-align: start;
+}
+.mainCardContainer{
+    position: relative;
+}
+.arrowLeft{
+    position: absolute;
+    top:0px;
+    left:100px;
+    font-size: 40px;
+}
+.trachIcon{
+    font-size:30px
+}
